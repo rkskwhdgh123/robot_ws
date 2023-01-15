@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/m_pubsub/m_pubsub.egg-info/PKG-INFO
+../build/m_pubsub/m_pubsub.egg-info/SOURCES.txt
+../build/m_pubsub/m_pubsub.egg-info/dependency_links.txt
+../build/m_pubsub/m_pubsub.egg-info/entry_points.txt
+../build/m_pubsub/m_pubsub.egg-info/requires.txt
+../build/m_pubsub/m_pubsub.egg-info/top_level.txt
+../build/m_pubsub/m_pubsub.egg-info/zip-safe
+m_pubsub/__init__.py
+m_pubsub/mpub.py
+m_pubsub/msub.py
+resource/m_pubsub
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

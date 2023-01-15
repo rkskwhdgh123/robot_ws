@@ -1,0 +1,21 @@
+[0.834s] Invoking command in '/home/rkskwhdgh123/robot_workspace/build/m_pubsub': PYTHONPATH=/home/rkskwhdgh123/robot_workspace/build/m_pubsub/prefix_override:/home/rkskwhdgh123/robot_workspace/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rkskwhdgh123/robot_workspace/build/m_pubsub/build --no-deps install_data
+[1.060s] running develop
+[1.193s] running egg_info
+[1.194s] writing m_pubsub.egg-info/PKG-INFO
+[1.194s] writing dependency_links to m_pubsub.egg-info/dependency_links.txt
+[1.195s] writing entry points to m_pubsub.egg-info/entry_points.txt
+[1.195s] writing requirements to m_pubsub.egg-info/requires.txt
+[1.195s] writing top-level names to m_pubsub.egg-info/top_level.txt
+[1.228s] reading manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.230s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.265s] running build_ext
+[1.265s] Creating /home/rkskwhdgh123/robot_workspace/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)
+[1.266s] Installing met script to /home/rkskwhdgh123/robot_workspace/install/m_pubsub/lib/m_pubsub
+[1.267s] Installing metp script to /home/rkskwhdgh123/robot_workspace/install/m_pubsub/lib/m_pubsub
+[1.267s] Installing mp script to /home/rkskwhdgh123/robot_workspace/install/m_pubsub/lib/m_pubsub
+[1.267s] Installing ms script to /home/rkskwhdgh123/robot_workspace/install/m_pubsub/lib/m_pubsub
+[1.268s] Installing mt script to /home/rkskwhdgh123/robot_workspace/install/m_pubsub/lib/m_pubsub
+[1.268s] 
+[1.268s] Installed /home/rkskwhdgh123/robot_workspace/build/m_pubsub
+[1.268s] running install_data
+[1.291s] Invoked command in '/home/rkskwhdgh123/robot_workspace/build/m_pubsub' returned '0': PYTHONPATH=/home/rkskwhdgh123/robot_workspace/build/m_pubsub/prefix_override:/home/rkskwhdgh123/robot_workspace/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rkskwhdgh123/robot_workspace/build/m_pubsub/build --no-deps install_data

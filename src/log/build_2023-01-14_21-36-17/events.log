@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000121] (m_pubsub) JobQueued: {'identifier': 'm_pubsub', 'dependencies': OrderedDict()}
+[0.000165] (test_interface) JobQueued: {'identifier': 'test_interface', 'dependencies': OrderedDict()}
+[0.000211] (m_pubsub) JobStarted: {'identifier': 'm_pubsub'}
+[0.024747] (test_interface) JobStarted: {'identifier': 'test_interface'}
+[0.099226] (-) TimerEvent: {}
+[0.199898] (-) TimerEvent: {}
+[0.241638] (test_interface) JobProgress: {'identifier': 'test_interface', 'progress': 'cmake'}
+[0.242616] (test_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/rkskwhdgh123/robot_workspace/src/test_interface', '-DCMAKE_INSTALL_PREFIX=/home/rkskwhdgh123/robot_workspace/src/install/test_interface'], 'cwd': '/home/rkskwhdgh123/robot_workspace/src/build/test_interface', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rkskwhdgh123'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1644'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/rkskwhdgh123/robot_ws/install/test_interfaces/lib:/home/rkskwhdgh123/robot_ws/install/ros2_aruco_interfaces/lib:/home/rkskwhdgh123/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rkskwhdgh123'), ('OLDPWD', '/home/rkskwhdgh123/robot_workspace'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7056'), ('_colcon_cd_root', '/home/rkskwhdgh123/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rkskwhdgh123/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rkskwhdgh123'), ('JOURNAL_STREAM', '8:51155'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rkskwhdgh123'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rkskwhdgh123/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1679,unix/ubuntu:/tmp/.ICE-unix/1679'), ('INVOCATION_ID', '78d34b29dfdd4d5dae53fe98d530ecc4'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '45'), ('AMENT_PREFIX_PATH', '/home/rkskwhdgh123/robot_ws/install/test_para:/home/rkskwhdgh123/robot_ws/install/test_num:/home/rkskwhdgh123/robot_ws/install/test_interfaces:/home/rkskwhdgh123/robot_ws/install/ros2_aruco_interfaces:/home/rkskwhdgh123/robot_ws/install/ros2_aruco:/home/rkskwhdgh123/robot_ws/install/move_turtle_pkg:/home/rkskwhdgh123/robot_ws/install/m_pubsub:/home/rkskwhdgh123/robot_ws/install/imgtran:/home/rkskwhdgh123/robot_ws/install/class_test_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d376e8b3-cbf5-4a0d-b32e-8efff8c29ca8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/rkskwhdgh123/robot_workspace/src/build/test_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rkskwhdgh123/robot_ws/build/test_para:/home/rkskwhdgh123/robot_ws/install/test_para/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/test_num:/home/rkskwhdgh123/robot_ws/install/test_num/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/install/test_interfaces/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/ros2_aruco:/home/rkskwhdgh123/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/move_turtle_pkg:/home/rkskwhdgh123/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/m_pubsub:/home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/imgtran:/home/rkskwhdgh123/robot_ws/install/imgtran/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rkskwhdgh123/robot_ws/install/test_interfaces:/home/rkskwhdgh123/robot_ws/install/ros2_aruco_interfaces:/home/rkskwhdgh123/robot_ws/install/class_test_interfaces:/home/rkskwhdgh123/robot_ws/install/test_para:/home/rkskwhdgh123/robot_ws/install/test_num:/home/rkskwhdgh123/robot_ws/install/ros2_aruco:/home/rkskwhdgh123/robot_ws/install/move_turtle_pkg:/home/rkskwhdgh123/robot_ws/install/m_pubsub:/home/rkskwhdgh123/robot_ws/install/imgtran:/opt/ros/foxy')]), 'shell': False}
+[0.261622] (test_interface) StderrLine: {'line': b'CMake Warning (dev) in CMakeLists.txt:\n'}
+[0.261977] (test_interface) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.262354] (test_interface) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.262473] (test_interface) StderrLine: {'line': b'  code such as\n'}
+[0.262612] (test_interface) StderrLine: {'line': b'\n'}
+[0.262722] (test_interface) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.262837] (test_interface) StderrLine: {'line': b'\n'}
+[0.262940] (test_interface) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.263091] (test_interface) StderrLine: {'line': b'\n'}
+[0.263201] (test_interface) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.263307] (test_interface) StderrLine: {'line': b'  line.\n'}
+[0.263399] (test_interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.263504] (test_interface) StderrLine: {'line': b'\n'}
+[0.299956] (-) TimerEvent: {}
+[0.364141] (test_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.400018] (-) TimerEvent: {}
+[0.452403] (test_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.464221] (test_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.500074] (-) TimerEvent: {}
+[0.600382] (-) TimerEvent: {}
+[0.615490] (test_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.617383] (test_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701605] (-) TimerEvent: {}
+[0.768360] (test_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.781509] (test_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.782196] (test_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.786798] (test_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.801682] (-) TimerEvent: {}
+[0.843579] (m_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/m_pubsub', 'build', '--build-base', '/home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build', 'install', '--record', '/home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/install.log', '--install-scripts', '$base/lib/m_pubsub', '--single-version-externally-managed'], 'cwd': '/home/rkskwhdgh123/robot_workspace/src/m_pubsub', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rkskwhdgh123', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1644', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/rkskwhdgh123/robot_ws/install/test_interfaces/lib:/home/rkskwhdgh123/robot_ws/install/ros2_aruco_interfaces/lib:/home/rkskwhdgh123/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rkskwhdgh123', 'OLDPWD': '/home/rkskwhdgh123/robot_workspace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1473', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7056', '_colcon_cd_root': '/home/rkskwhdgh123/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rkskwhdgh123', 'JOURNAL_STREAM': '8:51155', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rkskwhdgh123', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/rkskwhdgh123/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1679,unix/ubuntu:/tmp/.ICE-unix/1679', 'INVOCATION_ID': '78d34b29dfdd4d5dae53fe98d530ecc4', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '45', 'AMENT_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install/test_para:/home/rkskwhdgh123/robot_ws/install/test_num:/home/rkskwhdgh123/robot_ws/install/test_interfaces:/home/rkskwhdgh123/robot_ws/install/ros2_aruco_interfaces:/home/rkskwhdgh123/robot_ws/install/ros2_aruco:/home/rkskwhdgh123/robot_ws/install/move_turtle_pkg:/home/rkskwhdgh123/robot_ws/install/m_pubsub:/home/rkskwhdgh123/robot_ws/install/imgtran:/home/rkskwhdgh123/robot_ws/install/class_test_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d376e8b3-cbf5-4a0d-b32e-8efff8c29ca8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/rkskwhdgh123/robot_workspace/src/build/m_pubsub', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/prefix_override:/home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/test_para:/home/rkskwhdgh123/robot_ws/install/test_para/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/test_num:/home/rkskwhdgh123/robot_ws/install/test_num/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/install/test_interfaces/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/ros2_aruco:/home/rkskwhdgh123/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/move_turtle_pkg:/home/rkskwhdgh123/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/m_pubsub:/home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/imgtran:/home/rkskwhdgh123/robot_ws/install/imgtran/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install/test_interfaces:/home/rkskwhdgh123/robot_ws/install/ros2_aruco_interfaces:/home/rkskwhdgh123/robot_ws/install/class_test_interfaces'}, 'shell': False}
+[0.870226] (test_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.871188] (test_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901876] (-) TimerEvent: {}
+[0.950064] (test_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.970128] (test_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.970758] (test_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.992144] (test_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.002003] (-) TimerEvent: {}
+[1.092829] (test_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.093038] (test_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.102220] (-) TimerEvent: {}
+[1.116451] (m_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.118155] (m_pubsub) StdoutLine: {'line': b'creating ../build/m_pubsub/m_pubsub.egg-info\n'}
+[1.118283] (m_pubsub) StdoutLine: {'line': b'writing ../build/m_pubsub/m_pubsub.egg-info/PKG-INFO\n'}
+[1.118700] (m_pubsub) StdoutLine: {'line': b'writing dependency_links to ../build/m_pubsub/m_pubsub.egg-info/dependency_links.txt\n'}
+[1.119562] (m_pubsub) StdoutLine: {'line': b'writing entry points to ../build/m_pubsub/m_pubsub.egg-info/entry_points.txt\n'}
+[1.119725] (m_pubsub) StdoutLine: {'line': b'writing requirements to ../build/m_pubsub/m_pubsub.egg-info/requires.txt\n'}
+[1.119790] (m_pubsub) StdoutLine: {'line': b'writing top-level names to ../build/m_pubsub/m_pubsub.egg-info/top_level.txt\n'}
+[1.127327] (m_pubsub) StdoutLine: {'line': b"writing manifest file '../build/m_pubsub/m_pubsub.egg-info/SOURCES.txt'\n"}
+[1.198070] (m_pubsub) StdoutLine: {'line': b"reading manifest file '../build/m_pubsub/m_pubsub.egg-info/SOURCES.txt'\n"}
+[1.198237] (m_pubsub) StdoutLine: {'line': b"writing manifest file '../build/m_pubsub/m_pubsub.egg-info/SOURCES.txt'\n"}
+[1.198303] (m_pubsub) StdoutLine: {'line': b'running build\n'}
+[1.198358] (m_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.202389] (-) TimerEvent: {}
+[1.204178] (m_pubsub) StdoutLine: {'line': b'creating /home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build\n'}
+[1.204628] (m_pubsub) StdoutLine: {'line': b'creating /home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build/lib\n'}
+[1.204830] (m_pubsub) StdoutLine: {'line': b'creating /home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build/lib/m_pubsub\n'}
+[1.205010] (m_pubsub) StdoutLine: {'line': b'copying m_pubsub/mpub.py -> /home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build/lib/m_pubsub\n'}
+[1.205144] (m_pubsub) StdoutLine: {'line': b'copying m_pubsub/msub.py -> /home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build/lib/m_pubsub\n'}
+[1.205292] (m_pubsub) StdoutLine: {'line': b'copying m_pubsub/__init__.py -> /home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build/lib/m_pubsub\n'}
+[1.205484] (m_pubsub) StdoutLine: {'line': b'running install\n'}
+[1.206235] (m_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.207089] (m_pubsub) StdoutLine: {'line': b'creating /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/python3.8/site-packages/m_pubsub\n'}
+[1.207295] (m_pubsub) StdoutLine: {'line': b'copying /home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build/lib/m_pubsub/mpub.py -> /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/python3.8/site-packages/m_pubsub\n'}
+[1.208686] (m_pubsub) StdoutLine: {'line': b'copying /home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build/lib/m_pubsub/msub.py -> /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/python3.8/site-packages/m_pubsub\n'}
+[1.213646] (m_pubsub) StdoutLine: {'line': b'copying /home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/build/lib/m_pubsub/__init__.py -> /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/python3.8/site-packages/m_pubsub\n'}
+[1.213759] (m_pubsub) StdoutLine: {'line': b'byte-compiling /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/python3.8/site-packages/m_pubsub/mpub.py to mpub.cpython-38.pyc\n'}
+[1.213823] (m_pubsub) StdoutLine: {'line': b'byte-compiling /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/python3.8/site-packages/m_pubsub/msub.py to msub.cpython-38.pyc\n'}
+[1.213915] (m_pubsub) StdoutLine: {'line': b'byte-compiling /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/python3.8/site-packages/m_pubsub/__init__.py to __init__.cpython-38.pyc\n'}
+[1.214002] (m_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.214071] (m_pubsub) StdoutLine: {'line': b'creating /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/share/ament_index\n'}
+[1.214124] (m_pubsub) StdoutLine: {'line': b'creating /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/share/ament_index/resource_index\n'}
+[1.214177] (m_pubsub) StdoutLine: {'line': b'creating /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/share/ament_index/resource_index/packages\n'}
+[1.214228] (m_pubsub) StdoutLine: {'line': b'copying resource/m_pubsub -> /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/share/ament_index/resource_index/packages\n'}
+[1.214281] (m_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/share/m_pubsub\n'}
+[1.214348] (m_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.218018] (m_pubsub) StdoutLine: {'line': b'Copying ../build/m_pubsub/m_pubsub.egg-info to /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/python3.8/site-packages/m_pubsub-0.0.0-py3.8.egg-info\n'}
+[1.227986] (m_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.262969] (m_pubsub) StdoutLine: {'line': b'Installing met script to /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/m_pubsub\n'}
+[1.263371] (m_pubsub) StdoutLine: {'line': b'Installing metp script to /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/m_pubsub\n'}
+[1.263637] (m_pubsub) StdoutLine: {'line': b'Installing mp script to /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/m_pubsub\n'}
+[1.263922] (m_pubsub) StdoutLine: {'line': b'Installing ms script to /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/m_pubsub\n'}
+[1.264038] (m_pubsub) StdoutLine: {'line': b'Installing mt script to /home/rkskwhdgh123/robot_workspace/src/install/m_pubsub/lib/m_pubsub\n'}
+[1.264249] (m_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/rkskwhdgh123/robot_workspace/src/build/m_pubsub/install.log'\n"}
+[1.289014] (m_pubsub) CommandEnded: {'returncode': 0}
+[1.302789] (-) TimerEvent: {}
+[1.326260] (m_pubsub) JobEnded: {'identifier': 'm_pubsub', 'rc': 0}
+[1.402941] (-) TimerEvent: {}
+[1.421004] (test_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.441256] (test_interface) StderrLine: {'line': b'CMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[1.441467] (test_interface) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[1.441574] (test_interface) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[1.441648] (test_interface) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.441707] (test_interface) StderrLine: {'line': b'\n'}
+[1.441763] (test_interface) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[1.441831] (test_interface) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[1.441912] (test_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.441968] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[1.442024] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.442113] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.442173] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.442262] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.442320] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.442375] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.442429] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.442482] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.442536] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.442628] (test_interface) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[1.442684] (test_interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.442737] (test_interface) StderrLine: {'line': b'\n'}
+[1.442789] (test_interface) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[1.442841] (test_interface) StderrLine: {'line': b'  if given arguments:\n'}
+[1.442912] (test_interface) StderrLine: {'line': b'\n'}
+[1.442990] (test_interface) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"\n'}
+[1.443064] (test_interface) StderrLine: {'line': b'\n'}
+[1.443126] (test_interface) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[1.443176] (test_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.443227] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[1.443294] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.443368] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.443421] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.443472] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.443522] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.443598] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.443675] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.443728] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.443779] (test_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.443830] (test_interface) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[1.443897] (test_interface) StderrLine: {'line': b'\n'}
+[1.443949] (test_interface) StderrLine: {'line': b'\n'}
+[1.444119] (test_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.446549] (test_interface) StdoutLine: {'line': b'See also "/home/rkskwhdgh123/robot_workspace/src/build/test_interface/CMakeFiles/CMakeOutput.log".\n'}
+[1.451823] (test_interface) StderrLine: {'line': b'CMake Warning (dev) in CMakeLists.txt:\n'}
+[1.452023] (test_interface) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[1.452105] (test_interface) StderrLine: {'line': b'\n'}
+[1.452171] (test_interface) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.16)\n'}
+[1.452230] (test_interface) StderrLine: {'line': b'\n'}
+[1.452320] (test_interface) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[1.452380] (test_interface) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[1.452434] (test_interface) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[1.452514] (test_interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.452570] (test_interface) StderrLine: {'line': b'\n'}
+[1.452650] (test_interface) CommandEnded: {'returncode': 1}
+[1.473975] (test_interface) JobEnded: {'identifier': 'test_interface', 'rc': 1}
+[1.484799] (-) EventReactorShutdown: {}
