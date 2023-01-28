@@ -4,8 +4,10 @@ setup.py
 resource/tb3_move
 tb3_move/__init__.py
 tb3_move/tb3_basic_move.py
+tb3_move/tb3_distance_sub.py
 tb3_move/tb3_mix.py
 tb3_move/tb3_mix2.py
+tb3_move/tb3_mix3.py
 tb3_move/tb3_sub.py
 tb3_move.egg-info/PKG-INFO
 tb3_move.egg-info/SOURCES.txt

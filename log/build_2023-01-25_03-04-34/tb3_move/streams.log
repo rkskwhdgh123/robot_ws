@@ -1,0 +1,21 @@
+[2.024s] Invoking command in '/home/rkskwhdgh123/robot_ws/build/tb3_move': PYTHONPATH=/home/rkskwhdgh123/robot_ws/build/tb3_move/prefix_override:/home/rkskwhdgh123/robot_ws/install/tb3_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rkskwhdgh123/robot_ws/build/tb3_move/build --no-deps install_data
+[2.964s] running develop
+[3.706s] running egg_info
+[3.712s] writing tb3_move.egg-info/PKG-INFO
+[3.712s] writing dependency_links to tb3_move.egg-info/dependency_links.txt
+[3.712s] writing entry points to tb3_move.egg-info/entry_points.txt
+[3.714s] writing requirements to tb3_move.egg-info/requires.txt
+[3.714s] writing top-level names to tb3_move.egg-info/top_level.txt
+[3.875s] reading manifest file 'tb3_move.egg-info/SOURCES.txt'
+[3.876s] writing manifest file 'tb3_move.egg-info/SOURCES.txt'
+[4.030s] running build_ext
+[4.032s] Creating /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/python3.8/site-packages/tb3-move.egg-link (link to .)
+[4.032s] Installing tb3gpio script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move
+[4.033s] Installing tb3m script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move
+[4.034s] Installing tb3mix script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move
+[4.039s] Installing tb3mix2 script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move
+[4.039s] Installing tb3s script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move
+[4.040s] 
+[4.041s] Installed /home/rkskwhdgh123/robot_ws/build/tb3_move
+[4.041s] running install_data
+[4.140s] Invoked command in '/home/rkskwhdgh123/robot_ws/build/tb3_move' returned '0': PYTHONPATH=/home/rkskwhdgh123/robot_ws/build/tb3_move/prefix_override:/home/rkskwhdgh123/robot_ws/install/tb3_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rkskwhdgh123/robot_ws/build/tb3_move/build --no-deps install_data

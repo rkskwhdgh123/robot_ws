@@ -23,7 +23,10 @@ setup(
             'tb3m = tb3_move.tb3_basic_move:main',
             'tb3s = tb3_move.tb3_sub:main',
             'tb3mix = tb3_move.tb3_mix:main',
-            'tb3mix2 = tb3_move.tb3_mix:main',
+            'tb3mix2 = tb3_move.tb3_mix2:main',
+            'tb3mix3 = tb3_move.tb3_mix3:main',
+            'tb3gpio = tb3_move.gpiotest:main',
+            'tb3distance_sub_test = tb3_move.tb3_distance_sub:main',
         ],
     },
 )

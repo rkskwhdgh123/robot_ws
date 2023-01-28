@@ -1,0 +1,17 @@
+[1.234s] Invoking command in '/home/rkskwhdgh123/robot_ws/build/nav_move': PYTHONPATH=/home/rkskwhdgh123/robot_ws/build/nav_move/prefix_override:/home/rkskwhdgh123/robot_ws/install/nav_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rkskwhdgh123/robot_ws/build/nav_move/build --no-deps install_data
+[1.575s] running develop
+[1.766s] running egg_info
+[1.766s] writing nav_move.egg-info/PKG-INFO
+[1.767s] writing dependency_links to nav_move.egg-info/dependency_links.txt
+[1.767s] writing entry points to nav_move.egg-info/entry_points.txt
+[1.768s] writing requirements to nav_move.egg-info/requires.txt
+[1.768s] writing top-level names to nav_move.egg-info/top_level.txt
+[1.806s] reading manifest file 'nav_move.egg-info/SOURCES.txt'
+[1.807s] writing manifest file 'nav_move.egg-info/SOURCES.txt'
+[1.849s] running build_ext
+[1.849s] Creating /home/rkskwhdgh123/robot_ws/install/nav_move/lib/python3.8/site-packages/nav-move.egg-link (link to .)
+[1.851s] Installing followwaypoint script to /home/rkskwhdgh123/robot_ws/install/nav_move/lib/nav_move
+[1.851s] 
+[1.851s] Installed /home/rkskwhdgh123/robot_ws/build/nav_move
+[1.852s] running install_data
+[1.884s] Invoked command in '/home/rkskwhdgh123/robot_ws/build/nav_move' returned '0': PYTHONPATH=/home/rkskwhdgh123/robot_ws/build/nav_move/prefix_override:/home/rkskwhdgh123/robot_ws/install/nav_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rkskwhdgh123/robot_ws/build/nav_move/build --no-deps install_data

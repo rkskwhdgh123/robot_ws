@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.000842] (m_pubsub) JobQueued: {'identifier': 'm_pubsub', 'dependencies': OrderedDict()}
+[0.001107] (nav_move) JobQueued: {'identifier': 'nav_move', 'dependencies': OrderedDict()}
+[0.001476] (tb3_move) JobQueued: {'identifier': 'tb3_move', 'dependencies': OrderedDict()}
+[0.001743] (test_para) JobQueued: {'identifier': 'test_para', 'dependencies': OrderedDict()}
+[0.001881] (m_pubsub) JobStarted: {'identifier': 'm_pubsub'}
+[0.043440] (nav_move) JobStarted: {'identifier': 'nav_move'}
+[0.090630] (-) TimerEvent: {}
+[0.192381] (-) TimerEvent: {}
+[0.299404] (-) TimerEvent: {}
+[0.400445] (-) TimerEvent: {}
+[0.501309] (-) TimerEvent: {}
+[0.601866] (-) TimerEvent: {}
+[0.702903] (-) TimerEvent: {}
+[0.803691] (-) TimerEvent: {}
+[0.904505] (-) TimerEvent: {}
+[1.006703] (-) TimerEvent: {}
+[1.107255] (-) TimerEvent: {}
+[1.207837] (-) TimerEvent: {}
+[1.308479] (-) TimerEvent: {}
+[1.409047] (-) TimerEvent: {}
+[1.509660] (-) TimerEvent: {}
+[1.610066] (-) TimerEvent: {}
+[1.710863] (-) TimerEvent: {}
+[1.812431] (-) TimerEvent: {}
+[1.912970] (-) TimerEvent: {}
+[2.014774] (-) TimerEvent: {}
+[2.116067] (-) TimerEvent: {}
+[2.218238] (-) TimerEvent: {}
+[2.319185] (-) TimerEvent: {}
+[2.425512] (-) TimerEvent: {}
+[2.526224] (-) TimerEvent: {}
+[2.629404] (-) TimerEvent: {}
+[2.729951] (-) TimerEvent: {}
+[2.837829] (-) TimerEvent: {}
+[2.941172] (-) TimerEvent: {}
+[3.043566] (-) TimerEvent: {}
+[3.145206] (-) TimerEvent: {}
+[3.246074] (-) TimerEvent: {}
+[3.354830] (-) TimerEvent: {}
+[3.458229] (-) TimerEvent: {}
+[3.560925] (-) TimerEvent: {}
+[3.664044] (-) TimerEvent: {}
+[3.769374] (-) TimerEvent: {}
+[3.870255] (-) TimerEvent: {}
+[3.977204] (-) TimerEvent: {}
+[4.078067] (-) TimerEvent: {}
+[4.085879] (m_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rkskwhdgh123/robot_ws/build/m_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/rkskwhdgh123/robot_ws/build/m_pubsub', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rkskwhdgh123', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1619', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rkskwhdgh123', 'OLDPWD': '/home/rkskwhdgh123/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1445', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3d65c9e955173716fa047b0f63d0fccd', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/rkskwhdgh123/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rkskwhdgh123', 'JOURNAL_STREAM': '8:48446', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rkskwhdgh123', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/rkskwhdgh123/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1654,unix/ubuntu:/tmp/.ICE-unix/1654', 'INVOCATION_ID': '09d57add83d54f46a0aa2cd404666a4a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9c6f4077_2e23_45a8_abdb_7bb661551326', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.243', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '45', 'AMENT_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install/test_para:/home/rkskwhdgh123/robot_ws/install/tb3_move:/home/rkskwhdgh123/robot_ws/install/nav_move:/home/rkskwhdgh123/robot_ws/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/rkskwhdgh123/robot_ws/build/m_pubsub', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3d65c9e955173716fa047b0f63d0fccd', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rkskwhdgh123/robot_ws/build/m_pubsub/prefix_override:/home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/test_para:/home/rkskwhdgh123/robot_ws/install/test_para/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/tb3_move:/home/rkskwhdgh123/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/nav_move:/home/rkskwhdgh123/robot_ws/install/nav_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/m_pubsub:/home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[4.104499] (nav_move) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rkskwhdgh123/robot_ws/build/nav_move/build', '--no-deps', 'install_data'], 'cwd': '/home/rkskwhdgh123/robot_ws/build/nav_move', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rkskwhdgh123', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1619', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rkskwhdgh123', 'OLDPWD': '/home/rkskwhdgh123/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1445', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3d65c9e955173716fa047b0f63d0fccd', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/rkskwhdgh123/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rkskwhdgh123', 'JOURNAL_STREAM': '8:48446', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rkskwhdgh123', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/rkskwhdgh123/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1654,unix/ubuntu:/tmp/.ICE-unix/1654', 'INVOCATION_ID': '09d57add83d54f46a0aa2cd404666a4a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9c6f4077_2e23_45a8_abdb_7bb661551326', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.243', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '45', 'AMENT_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install/test_para:/home/rkskwhdgh123/robot_ws/install/tb3_move:/home/rkskwhdgh123/robot_ws/install/nav_move:/home/rkskwhdgh123/robot_ws/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/rkskwhdgh123/robot_ws/build/nav_move', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3d65c9e955173716fa047b0f63d0fccd', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rkskwhdgh123/robot_ws/build/nav_move/prefix_override:/home/rkskwhdgh123/robot_ws/install/nav_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/test_para:/home/rkskwhdgh123/robot_ws/install/test_para/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/tb3_move:/home/rkskwhdgh123/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/nav_move:/home/rkskwhdgh123/robot_ws/install/nav_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/m_pubsub:/home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[4.179005] (-) TimerEvent: {}
+[4.280280] (-) TimerEvent: {}
+[4.380895] (-) TimerEvent: {}
+[4.481932] (-) TimerEvent: {}
+[4.586095] (-) TimerEvent: {}
+[4.690835] (-) TimerEvent: {}
+[4.795951] (-) TimerEvent: {}
+[4.896564] (-) TimerEvent: {}
+[4.997319] (-) TimerEvent: {}
+[5.070003] (nav_move) StdoutLine: {'line': b'running develop\n'}
+[5.097820] (-) TimerEvent: {}
+[5.199360] (-) TimerEvent: {}
+[5.211921] (m_pubsub) StdoutLine: {'line': b'running develop\n'}
+[5.299796] (-) TimerEvent: {}
+[5.402441] (-) TimerEvent: {}
+[5.503393] (-) TimerEvent: {}
+[5.604255] (-) TimerEvent: {}
+[5.705850] (-) TimerEvent: {}
+[5.806694] (-) TimerEvent: {}
+[5.912141] (-) TimerEvent: {}
+[6.012751] (-) TimerEvent: {}
+[6.083777] (nav_move) StdoutLine: {'line': b'running egg_info\n'}
+[6.085056] (nav_move) StdoutLine: {'line': b'writing nav_move.egg-info/PKG-INFO\n'}
+[6.095478] (nav_move) StdoutLine: {'line': b'writing dependency_links to nav_move.egg-info/dependency_links.txt\n'}
+[6.098024] (nav_move) StdoutLine: {'line': b'writing entry points to nav_move.egg-info/entry_points.txt\n'}
+[6.105995] (nav_move) StdoutLine: {'line': b'writing requirements to nav_move.egg-info/requires.txt\n'}
+[6.106740] (nav_move) StdoutLine: {'line': b'writing top-level names to nav_move.egg-info/top_level.txt\n'}
+[6.112892] (-) TimerEvent: {}
+[6.227756] (-) TimerEvent: {}
+[6.328490] (-) TimerEvent: {}
+[6.430654] (-) TimerEvent: {}
+[6.474474] (m_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[6.475573] (m_pubsub) StdoutLine: {'line': b'writing m_pubsub.egg-info/PKG-INFO\n'}
+[6.477277] (m_pubsub) StdoutLine: {'line': b'writing dependency_links to m_pubsub.egg-info/dependency_links.txt\n'}
+[6.482356] (m_pubsub) StdoutLine: {'line': b'writing entry points to m_pubsub.egg-info/entry_points.txt\n'}
+[6.484266] (m_pubsub) StdoutLine: {'line': b'writing requirements to m_pubsub.egg-info/requires.txt\n'}
+[6.493994] (m_pubsub) StdoutLine: {'line': b'writing top-level names to m_pubsub.egg-info/top_level.txt\n'}
+[6.507720] (nav_move) StdoutLine: {'line': b"reading manifest file 'nav_move.egg-info/SOURCES.txt'\n"}
+[6.518387] (nav_move) StdoutLine: {'line': b"writing manifest file 'nav_move.egg-info/SOURCES.txt'\n"}
+[6.530878] (-) TimerEvent: {}
+[6.637438] (-) TimerEvent: {}
+[6.727508] (m_pubsub) StdoutLine: {'line': b"reading manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[6.735455] (m_pubsub) StdoutLine: {'line': b"writing manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[6.737953] (-) TimerEvent: {}
+[6.770389] (nav_move) StdoutLine: {'line': b'running build_ext\n'}
+[6.771125] (nav_move) StdoutLine: {'line': b'Creating /home/rkskwhdgh123/robot_ws/install/nav_move/lib/python3.8/site-packages/nav-move.egg-link (link to .)\n'}
+[6.786052] (nav_move) StdoutLine: {'line': b'Installing followwaypoint script to /home/rkskwhdgh123/robot_ws/install/nav_move/lib/nav_move\n'}
+[6.790424] (nav_move) StdoutLine: {'line': b'\n'}
+[6.791478] (nav_move) StdoutLine: {'line': b'Installed /home/rkskwhdgh123/robot_ws/build/nav_move\n'}
+[6.792060] (nav_move) StdoutLine: {'line': b'running install_data\n'}
+[6.840442] (-) TimerEvent: {}
+[6.908165] (nav_move) CommandEnded: {'returncode': 0}
+[6.945729] (-) TimerEvent: {}
+[6.967422] (m_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[6.967973] (m_pubsub) StdoutLine: {'line': b'Creating /home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)\n'}
+[6.986470] (m_pubsub) StdoutLine: {'line': b'Installing met script to /home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[6.987106] (m_pubsub) StdoutLine: {'line': b'Installing metp script to /home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[6.990873] (m_pubsub) StdoutLine: {'line': b'Installing mp script to /home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[6.998034] (m_pubsub) StdoutLine: {'line': b'Installing ms script to /home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[6.998731] (m_pubsub) StdoutLine: {'line': b'Installing mt script to /home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[6.999566] (m_pubsub) StdoutLine: {'line': b'\n'}
+[7.000024] (m_pubsub) StdoutLine: {'line': b'Installed /home/rkskwhdgh123/robot_ws/build/m_pubsub\n'}
+[7.000406] (m_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[7.046161] (-) TimerEvent: {}
+[7.154857] (-) TimerEvent: {}
+[7.189236] (nav_move) JobEnded: {'identifier': 'nav_move', 'rc': 0}
+[7.216284] (tb3_move) JobStarted: {'identifier': 'tb3_move'}
+[7.257179] (-) TimerEvent: {}
+[7.324481] (m_pubsub) CommandEnded: {'returncode': 0}
+[7.357713] (-) TimerEvent: {}
+[7.395441] (m_pubsub) JobEnded: {'identifier': 'm_pubsub', 'rc': 0}
+[7.398650] (test_para) JobStarted: {'identifier': 'test_para'}
+[7.459053] (-) TimerEvent: {}
+[7.560636] (-) TimerEvent: {}
+[7.661365] (-) TimerEvent: {}
+[7.762339] (-) TimerEvent: {}
+[7.864020] (-) TimerEvent: {}
+[7.964727] (-) TimerEvent: {}
+[8.065308] (-) TimerEvent: {}
+[8.165953] (-) TimerEvent: {}
+[8.266891] (-) TimerEvent: {}
+[8.367983] (-) TimerEvent: {}
+[8.468666] (-) TimerEvent: {}
+[8.569363] (-) TimerEvent: {}
+[8.669781] (-) TimerEvent: {}
+[8.770769] (-) TimerEvent: {}
+[8.871367] (-) TimerEvent: {}
+[8.973266] (-) TimerEvent: {}
+[9.073739] (-) TimerEvent: {}
+[9.174262] (-) TimerEvent: {}
+[9.275618] (-) TimerEvent: {}
+[9.377795] (-) TimerEvent: {}
+[9.479532] (-) TimerEvent: {}
+[9.580061] (-) TimerEvent: {}
+[9.680615] (-) TimerEvent: {}
+[9.782014] (-) TimerEvent: {}
+[9.889308] (-) TimerEvent: {}
+[9.998452] (-) TimerEvent: {}
+[10.107764] (-) TimerEvent: {}
+[10.209955] (-) TimerEvent: {}
+[10.310795] (-) TimerEvent: {}
+[10.372537] (test_para) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rkskwhdgh123/robot_ws/build/test_para/build', '--no-deps', 'install_data'], 'cwd': '/home/rkskwhdgh123/robot_ws/build/test_para', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rkskwhdgh123', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1619', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rkskwhdgh123', 'OLDPWD': '/home/rkskwhdgh123/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1445', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3d65c9e955173716fa047b0f63d0fccd', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/rkskwhdgh123/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rkskwhdgh123', 'JOURNAL_STREAM': '8:48446', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rkskwhdgh123', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/rkskwhdgh123/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1654,unix/ubuntu:/tmp/.ICE-unix/1654', 'INVOCATION_ID': '09d57add83d54f46a0aa2cd404666a4a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9c6f4077_2e23_45a8_abdb_7bb661551326', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.243', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '45', 'AMENT_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install/test_para:/home/rkskwhdgh123/robot_ws/install/tb3_move:/home/rkskwhdgh123/robot_ws/install/nav_move:/home/rkskwhdgh123/robot_ws/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/rkskwhdgh123/robot_ws/build/test_para', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3d65c9e955173716fa047b0f63d0fccd', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rkskwhdgh123/robot_ws/build/test_para/prefix_override:/home/rkskwhdgh123/robot_ws/install/test_para/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/test_para:/home/rkskwhdgh123/robot_ws/install/test_para/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/tb3_move:/home/rkskwhdgh123/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/nav_move:/home/rkskwhdgh123/robot_ws/install/nav_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/m_pubsub:/home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[10.411156] (-) TimerEvent: {}
+[10.510430] (tb3_move) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rkskwhdgh123/robot_ws/build/tb3_move/build', '--no-deps', 'install_data'], 'cwd': '/home/rkskwhdgh123/robot_ws/build/tb3_move', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rkskwhdgh123', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1619', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rkskwhdgh123', 'OLDPWD': '/home/rkskwhdgh123/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1445', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3d65c9e955173716fa047b0f63d0fccd', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/rkskwhdgh123/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rkskwhdgh123', 'JOURNAL_STREAM': '8:48446', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rkskwhdgh123', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/rkskwhdgh123/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1654,unix/ubuntu:/tmp/.ICE-unix/1654', 'INVOCATION_ID': '09d57add83d54f46a0aa2cd404666a4a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9c6f4077_2e23_45a8_abdb_7bb661551326', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.243', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '45', 'AMENT_PREFIX_PATH': '/home/rkskwhdgh123/robot_ws/install/test_para:/home/rkskwhdgh123/robot_ws/install/tb3_move:/home/rkskwhdgh123/robot_ws/install/nav_move:/home/rkskwhdgh123/robot_ws/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/rkskwhdgh123/robot_ws/build/tb3_move', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3d65c9e955173716fa047b0f63d0fccd', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rkskwhdgh123/robot_ws/build/tb3_move/prefix_override:/home/rkskwhdgh123/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/test_para:/home/rkskwhdgh123/robot_ws/install/test_para/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/tb3_move:/home/rkskwhdgh123/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/nav_move:/home/rkskwhdgh123/robot_ws/install/nav_move/lib/python3.8/site-packages:/home/rkskwhdgh123/robot_ws/build/m_pubsub:/home/rkskwhdgh123/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[10.513755] (-) TimerEvent: {}
+[10.622495] (-) TimerEvent: {}
+[10.725235] (-) TimerEvent: {}
+[10.831503] (-) TimerEvent: {}
+[10.933332] (-) TimerEvent: {}
+[11.034977] (-) TimerEvent: {}
+[11.140131] (-) TimerEvent: {}
+[11.239244] (test_para) StdoutLine: {'line': b'running develop\n'}
+[11.240264] (-) TimerEvent: {}
+[11.341845] (-) TimerEvent: {}
+[11.444396] (-) TimerEvent: {}
+[11.526369] (tb3_move) StdoutLine: {'line': b'running develop\n'}
+[11.550878] (-) TimerEvent: {}
+[11.652661] (-) TimerEvent: {}
+[11.702251] (test_para) StdoutLine: {'line': b'running egg_info\n'}
+[11.709814] (test_para) StdoutLine: {'line': b'writing test_para.egg-info/PKG-INFO\n'}
+[11.710248] (test_para) StdoutLine: {'line': b'writing dependency_links to test_para.egg-info/dependency_links.txt\n'}
+[11.710463] (test_para) StdoutLine: {'line': b'writing entry points to test_para.egg-info/entry_points.txt\n'}
+[11.710658] (test_para) StdoutLine: {'line': b'writing requirements to test_para.egg-info/requires.txt\n'}
+[11.711175] (test_para) StdoutLine: {'line': b'writing top-level names to test_para.egg-info/top_level.txt\n'}
+[11.753182] (-) TimerEvent: {}
+[11.786185] (test_para) StdoutLine: {'line': b"reading manifest file 'test_para.egg-info/SOURCES.txt'\n"}
+[11.793313] (test_para) StdoutLine: {'line': b"writing manifest file 'test_para.egg-info/SOURCES.txt'\n"}
+[11.855198] (-) TimerEvent: {}
+[11.900102] (test_para) StdoutLine: {'line': b'running build_ext\n'}
+[11.900638] (test_para) StdoutLine: {'line': b'Creating /home/rkskwhdgh123/robot_ws/install/test_para/lib/python3.8/site-packages/test-para.egg-link (link to .)\n'}
+[11.905381] (test_para) StdoutLine: {'line': b'Installing tp1 script to /home/rkskwhdgh123/robot_ws/install/test_para/lib/test_para\n'}
+[11.905691] (test_para) StdoutLine: {'line': b'\n'}
+[11.905939] (test_para) StdoutLine: {'line': b'Installed /home/rkskwhdgh123/robot_ws/build/test_para\n'}
+[11.906165] (test_para) StdoutLine: {'line': b'running install_data\n'}
+[11.953534] (test_para) CommandEnded: {'returncode': 0}
+[11.974232] (-) TimerEvent: {}
+[12.045022] (tb3_move) StdoutLine: {'line': b'running egg_info\n'}
+[12.048700] (tb3_move) StdoutLine: {'line': b'writing tb3_move.egg-info/PKG-INFO\n'}
+[12.049365] (tb3_move) StdoutLine: {'line': b'writing dependency_links to tb3_move.egg-info/dependency_links.txt\n'}
+[12.050589] (tb3_move) StdoutLine: {'line': b'writing entry points to tb3_move.egg-info/entry_points.txt\n'}
+[12.050932] (tb3_move) StdoutLine: {'line': b'writing requirements to tb3_move.egg-info/requires.txt\n'}
+[12.051616] (tb3_move) StdoutLine: {'line': b'writing top-level names to tb3_move.egg-info/top_level.txt\n'}
+[12.062618] (test_para) JobEnded: {'identifier': 'test_para', 'rc': 0}
+[12.075462] (-) TimerEvent: {}
+[12.146642] (tb3_move) StdoutLine: {'line': b"reading manifest file 'tb3_move.egg-info/SOURCES.txt'\n"}
+[12.148086] (tb3_move) StdoutLine: {'line': b"writing manifest file 'tb3_move.egg-info/SOURCES.txt'\n"}
+[12.175976] (-) TimerEvent: {}
+[12.242857] (tb3_move) StdoutLine: {'line': b'running build_ext\n'}
+[12.243173] (tb3_move) StdoutLine: {'line': b'Creating /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/python3.8/site-packages/tb3-move.egg-link (link to .)\n'}
+[12.244909] (tb3_move) StdoutLine: {'line': b'Installing tb3gpio script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move\n'}
+[12.246017] (tb3_move) StdoutLine: {'line': b'Installing tb3m script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move\n'}
+[12.247440] (tb3_move) StdoutLine: {'line': b'Installing tb3mix script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move\n'}
+[12.247730] (tb3_move) StdoutLine: {'line': b'Installing tb3mix2 script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move\n'}
+[12.247931] (tb3_move) StdoutLine: {'line': b'Installing tb3s script to /home/rkskwhdgh123/robot_ws/install/tb3_move/lib/tb3_move\n'}
+[12.248348] (tb3_move) StdoutLine: {'line': b'\n'}
+[12.248759] (tb3_move) StdoutLine: {'line': b'Installed /home/rkskwhdgh123/robot_ws/build/tb3_move\n'}
+[12.249382] (tb3_move) StdoutLine: {'line': b'running install_data\n'}
+[12.276185] (-) TimerEvent: {}
+[12.310324] (tb3_move) CommandEnded: {'returncode': 0}
+[12.349693] (tb3_move) JobEnded: {'identifier': 'tb3_move', 'rc': 0}
+[12.360321] (-) EventReactorShutdown: {}

@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'followwaypoint = imgtran.followwaypoint:main',
+            'followwaypoint = nav_move.followwaypoint:main',
         ],
     },
 )

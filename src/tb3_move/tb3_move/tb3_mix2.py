@@ -28,17 +28,23 @@ class M_sub(Node):
     find_color = cv2.inRange(ycrcb,(0, 0, 150),(255, 255, 255))
     cv2.imshow("Image window", find_color)
     #cv2.imshow("HSV", ycrcb)
+
     contours, hierarchy = cv2.findContours(find_color,cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
-    if contours[0] is None:
+    # contours= contours+('0',)
+    if contours is None:
       pass
     else :
-      M = cv2.moments(contours[0])
-      if M['m00'] != 0 :
-        self.cx = int(M['m10']/ M['m00'])
-        self.cy = int(M['m01']/ M['m00'])
-      else:
-        self.cx = 0
-        self.cy = 0
+      try:
+        M = cv2.moments(contours[0])
+        if M['m00'] != 0 :
+          self.cx = int(M['m10']/ M['m00'])
+          self.cy = int(M['m01']/ M['m00'])
+        else:
+          self.cx = 0
+          self.cy = 0
+      except :
+           self.cx = 0
+           self.cy = 0
 
     cv2.circle(iamge_rotate,(self.cx,self.cy),3,(0,0,255),-1)
 
@@ -52,12 +58,15 @@ class M_sub(Node):
   def tb3_m_publisher(self):
         msg = Twist()
         if self.cx>=1 and self.cx>=120 :
-          msg.angular.z = -0.1
-        if self.cx<=200 :
-          msg.angular.z = 0.1
+          msg.angular.z = -0.3
+        if self.cx >=1 and self.cx<=200 :
+          msg.angular.z = 0.3
         if self.cx<200 and self.cx>120 :
           msg.angular.z = 0.0
-          msg.linear.x = 0.1
+          msg.linear.x = 0.15
+        if self.cx==0:
+          msg.angular.z = 0.0
+          msg.linear.x = 0.0
         print(self.cx)
 
         self.massage_publisher.publish(msg)
